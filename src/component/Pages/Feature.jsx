@@ -1,4 +1,4 @@
-import img1 from '../../assets/location/location_1.png'
+import img1 from '../../assets/location/location_1.png';
 import img2 from '../../assets/location/locate_2.png';
 import img3 from '../../assets/location/locate_3.png';
 import img4 from '../../assets/location/locate_4.png';
@@ -15,14 +15,14 @@ const Feature = () => {
             <hr className="w-28 border-t-2 border-[#E93740] bg-[#E93740]" />
           </div>
         </div>
-        <article className="grid grid-rows-4 lg:grid-rows-2 grid-cols-1 lg:grid-cols-4 gap-4 h-auto lg:h-full">
+        <article className="grid grid-rows-6 lg:grid-rows-2 grid-cols-1 lg:grid-cols-4 gap-4 h-auto lg:h-full">
           <div className="relative h-60 lg:h-3/5 row-span-1 lg:row-span-2 col-span-1 transform transition-transform hover:scale-105 hover:shadow-xl">
             <img src={img1} alt="Kandy" className="w-full h-full bg-slate-900 opacity-90 object-cover" />
             <p className="absolute bottom-4 left-4 text-white text-lg">Kandy</p>
           </div>
           <div className="relative col-span-1 lg:col-span-2 row-span-1 grid grid-cols-2 gap-4 h-56 lg:h-full">
             <div className="relative transform transition-transform hover:scale-105 hover:shadow-xl h-full">
-              <img src={img2} alt="Anuradhapura" className="w-full h-full object-cover  bg-slate-900 opacity-90" />
+              <img src={img2} alt="Anuradhapura" className="w-full h-full object-cover bg-slate-900 opacity-90" />
               <p className="absolute bottom-2 left-2 text-white text-lg">Anuradhapura</p>
             </div>
             <div className="relative transform transition-transform hover:scale-105 hover:shadow-xl h-full">
@@ -38,7 +38,7 @@ const Feature = () => {
               <p className="absolute bottom-2 left-2 text-white text-lg">Jaffna</p>
             </div>
           </div>
-          <div className="relative h-56 lg:h-3/5 row-span-1 lg:row-span-2 col-span-1 transform transition-transform hover:scale-105 hover:shadow-xl">
+          <div className="relative h-60 lg:h-2/5 row-span-1 col-span-1 transform transition-transform hover:scale-105 hover:shadow-xl">
             <img src={img6} alt="Colombo" className="w-full h-full object-cover bg-slate-900 opacity-90" />
             <p className="absolute bottom-4 left-4 text-white text-lg">Colombo</p>
           </div>
