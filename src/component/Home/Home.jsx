@@ -2,8 +2,10 @@ import Navigation from '../Navigation/Navigation';
 import homeBg from '../../assets/home_bg.png';
 import Browser from '../Pages/Browse';
 import Listing from '../Pages/Listing/Listing';
-// import search from '../../assets/search.png';
-// import map from '../../assets/map-pin.png';
+import Insight from '../Pages/Insight';
+import Feature from '../Pages/Feature';
+import Blog from '../Pages/Blog/Blog';
+import Footer from '../Pages/Footer';
 
 const Home = () => {
   return (
@@ -42,6 +44,10 @@ const Home = () => {
       </section>
       <Browser />
       <Listing />
+      <Insight />
+      <Feature />
+      <Blog />
+      <Footer />
     </>
   )
 }

@@ -29,7 +29,10 @@ const Listing = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {Listings.map((listing) => (
-              <article key={listing.id} className="bg-white shadow-md rounded-lg overflow-hidden relative transform transition-transform hover:scale-105 hover:shadow-xl">
+              <article 
+                key={listing.id} 
+                className="bg-white shadow-md rounded-lg overflow-hidden relative transition duration-300 ease-in-out transform hover:shadow-lg hover:scale-105"
+              >
                 <div className="relative">
                   <img src={listing.img} alt={listing.title} className="w-full h-48 object-cover" />
                   <span className="absolute top-2 rounded-xl right-2 bg-[#77B747] text-white px-2 py-1 text-xs font-bold">For Rent</span>
