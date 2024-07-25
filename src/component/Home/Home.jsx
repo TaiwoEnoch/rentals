@@ -11,9 +11,9 @@ const Home = () => {
   return (
     <>
       <Navigation />
-      <section className="w-full h-screen bg-cover bg-center" style={{ backgroundImage: `url(${homeBg})` }}>
+      <section className="w-full h-svh bg-cover bg-center" style={{ backgroundImage: `url(${homeBg})` }}>
         <div className='flex flex-col justify-center w-4/5 mx-auto pt-20 sm:pt-36'>
-          <div className='text-center mb-8'>
+          <div className='text-center mb-8 pt-10'>
             <h1 className='font-bold text-3xl sm:text-5xl mb-4'>
               Discover Your <span className='text-[#E93740]'>Perfect Rental</span>
             </h1>

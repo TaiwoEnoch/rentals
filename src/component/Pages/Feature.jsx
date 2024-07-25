@@ -8,7 +8,7 @@ import img6 from '../../assets/location/locate_6.png';
 const Feature = () => {
   return (
     <>
-      <section id='feature' className="w-11/12 lg:w-4/5 m-auto h-auto lg:h-screen">
+      <section id='feature' className="w-11/12 lg:w-4/5 m-auto mb-36 lg:h-screen">
         <div className="text-center mb-6">
           <h1 className="text-3xl font-bold mb-2">Featured Locations</h1>
           <div className="flex justify-center">
@@ -38,7 +38,7 @@ const Feature = () => {
               <p className="absolute bottom-2 left-2 text-white text-lg">Jaffna</p>
             </div>
           </div>
-          <div className="relative h-60 lg:h-2/5 row-span-1 col-span-1 transform transition-transform hover:scale-105 hover:shadow-xl">
+          <div className="relative h-60 lg:h-3/5 row-span-1 lg:row-span-2 col-span-1 transform transition-transform hover:scale-105 hover:shadow-xl">
             <img src={img6} alt="Colombo" className="w-full h-full object-cover bg-slate-900 opacity-90" />
             <p className="absolute bottom-4 left-4 text-white text-lg">Colombo</p>
           </div>

@@ -28,10 +28,6 @@ const Navigation = () => {
             <li><a href="#" className="block lg:inline-block">About Us</a></li>
             <li><a href="#" className="block lg:inline-block">Contact</a></li>
             <li><a href="#" className="block lg:inline-block">Blog</a></li>
-            {/* <li className="flex items-center gap-2 text-center hidden lg:flex">
-              <img src={user} alt="user image" className="w-4 h-4" />
-              <span className="text-[#E93740]">sign-in</span>
-            </li> */}
           </ul>
           <div className="flex gap-6 items-center">
             <div className="hidden lg:flex items-center gap-2 text-center">
@@ -55,7 +51,7 @@ const Navigation = () => {
           </div>
         </nav>
         <ul
-          className={`fixed top-0 right-0 h-full w-2/3 bg-white shadow-lg transform ${
+          className={`fixed top-0 right-0 h-full w-2/3 bg-white shadow-lg transform z-50 ${
             isMenuOpen ? 'translate-x-0' : 'translate-x-full'
           } transition-transform duration-300 ease-in-out lg:hidden flex flex-col gap-6 text-[18px] p-4 mt-16`}
         >
